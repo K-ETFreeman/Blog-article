@@ -1011,6 +1011,8 @@ body {
 }
 
 .simplepopup__input input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 5px;
   border: 1px solid #e9e9e9;
   width: 100%;
@@ -3244,12 +3246,19 @@ button.swiper-pagination-bullet {
 
   .form__box .form__inputwrapper,
   .form__box textarea {
-    width: 75%;
+    width: 450px;
     margin-right: 0;
   }
 
   .form__comment {
     height: 150px;
+  }
+}
+
+@media screen and (max-width: 749px) and (max-width: 620px) {
+  .form__box .form__inputwrapper,
+  .form__box textarea {
+    width: 100%;
   }
 }
 
@@ -3567,6 +3576,10 @@ button.swiper-pagination-bullet {
     padding-right: calc(30px + (100vw - 1440px) * (0.02083));
   }
 
+  .article__content p {
+    font-size: calc(14px + (100vw - 1440px) * (0.00417));
+  }
+
   .article__additional {
     -ms-flex-preferred-size: calc(247.5px + (100vw - 1440px) * (0.17188));
         flex-basis: calc(247.5px + (100vw - 1440px) * (0.17188));
@@ -3670,6 +3683,14 @@ button.swiper-pagination-bullet {
 
   .card__date {
     padding-right: calc(18.75px + (100vw - 1440px) * (0.01302));
+  }
+
+  .tags__title {
+    font-size: calc(14px + (100vw - 1440px) * (0.00417));
+  }
+
+  .tags__list li a {
+    font-size: calc(14px + (100vw - 1440px) * (0.00417));
   }
 
   .form {
@@ -4382,6 +4403,10 @@ button.swiper-pagination-bullet {
     font-size: 10.5px;
   }
 
+  .article__content p {
+    font-size: 14px;
+  }
+
   .article__title {
     margin-left: 10.5px;
   }
@@ -4460,6 +4485,14 @@ button.swiper-pagination-bullet {
 
   .card__date {
     padding-right: 18.75px;
+  }
+
+  .tags__title {
+    font-size: 14px;
+  }
+
+  .tags__list li a {
+    font-size: 14px;
   }
 
   .simplepopup__title {
