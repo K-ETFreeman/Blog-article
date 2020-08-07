@@ -1172,9 +1172,6 @@ body {
 .button {
   width: 243px;
   height: 46px;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 500;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1190,6 +1187,9 @@ body {
   -webkit-transition: 0.4s ease;
   -o-transition: 0.4s ease;
   transition: 0.4s ease;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .button a {
@@ -1207,6 +1207,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .button_blue {
@@ -3734,7 +3737,11 @@ button.swiper-pagination-bullet {
   }
 
   .button {
-    font-size: calc(13.5px + (100vw - 1440px) * (0.00937));
+    font-size: calc(16px + (100vw - 1440px) * (0.00417));
+  }
+
+  .button a {
+    font-size: calc(16px + (100vw - 1440px) * (0.00417));
   }
 
   .bgtext {
@@ -3960,7 +3967,11 @@ button.swiper-pagination-bullet {
   }
 
   .button {
-    font-size: 13.5px;
+    font-size: 16px;
+  }
+
+  .button a {
+    font-size: 16px;
   }
 
   .bgtext {
@@ -4151,6 +4162,14 @@ button.swiper-pagination-bullet {
 
   .simplepopup__list li a {
     font-size: calc(14px + (100vw - 320px) * (0.00446));
+  }
+
+  .button {
+    font-size: calc(15px + (100vw - 320px) * (0.00223));
+  }
+
+  .button a {
+    font-size: calc(15px + (100vw - 320px) * (0.00223));
   }
 
   .cases__swiper {
