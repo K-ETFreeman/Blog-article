@@ -3208,8 +3208,6 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 768px) {
   #up {
     left: calc(95% - 40px);
-    width: 40px;
-    height: 40px;
     margin-bottom: -40px;
   }
 
@@ -3763,6 +3761,18 @@ button.swiper-pagination-bullet {
 
   .button a {
     font-size: calc(16px + (100vw - 1440px) * (0.00417));
+  }
+
+  #up {
+    width: calc(45px + (100vw - 1440px) * (0.03125));
+  }
+
+  #up {
+    height: calc(45px + (100vw - 1440px) * (0.03125));
+  }
+
+  #up {
+    margin-bottom: calc(45px + (100vw - 1440px) * (0.03125));
   }
 
   .bgtext {
@@ -4525,6 +4535,18 @@ button.swiper-pagination-bullet {
 
   .socialline_vertical li a {
     padding: 3.75px;
+  }
+
+  #up {
+    width: 45px;
+  }
+
+  #up {
+    height: 45px;
+  }
+
+  #up {
+    margin-bottom: 45px;
   }
 
   .cases__slide-title {
