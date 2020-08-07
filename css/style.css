@@ -3772,7 +3772,7 @@ button.swiper-pagination-bullet {
   }
 
   #up {
-    margin-bottom: calc(45px + (100vw - 1440px) * (0.03125));
+    margin-bottom: calc(-45px + (100vw - 1440px) * (-0.03125));
   }
 
   .bgtext {
@@ -4546,7 +4546,7 @@ button.swiper-pagination-bullet {
   }
 
   #up {
-    margin-bottom: 45px;
+    margin-bottom: -45px;
   }
 
   .cases__slide-title {
