@@ -787,10 +787,7 @@ main section:nth-child(even) {
 .tags__title {
   color: #9f9fa1;
   font-weight: 400;
-  font-size: 18px;
-  -webkit-transform: translateY(-1px);
-      -ms-transform: translateY(-1px);
-          transform: translateY(-1px);
+  font-size: 16px;
   margin-right: -35px;
 }
 
@@ -820,7 +817,7 @@ main section:nth-child(even) {
 }
 
 .tags__list li a {
-  font-size: 18px;
+  font-size: 16px;
   opacity: 0.7;
   white-space: nowrap;
   color: #3ea3f2;
@@ -2883,14 +2880,6 @@ button.swiper-pagination-bullet {
 }
 
 @media screen and (max-width: 1439px) {
-  .tags__title {
-    font-size: 16px;
-  }
-
-  .tags__list li a {
-    font-size: 16px;
-  }
-
   .cases__slide-button {
     font-size: 16px;
   }
@@ -3668,14 +3657,6 @@ button.swiper-pagination-bullet {
 
   .card__date {
     padding-right: calc(18.75px + (100vw - 1440px) * (0.01302));
-  }
-
-  .tags__title {
-    font-size: calc(16px + (100vw - 1440px) * (0.00417));
-  }
-
-  .tags__list li a {
-    font-size: calc(16px + (100vw - 1440px) * (0.00417));
   }
 
   .form {
