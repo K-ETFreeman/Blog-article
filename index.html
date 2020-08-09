@@ -204,128 +204,130 @@
 <body>
 
   <header class="header">
-    <div class="wrapper">
 
-      <div class="headline">
-        <div class="headline__location">
-          <div class="svgcontainer svgcontainer_small">
-            <svg>
-              <use xlink:href="#icon-location"></use>
-            </svg>
-          </div>
-          Петрозаводск
-          <div class="simplepopup" data-trigger="click">
-            <a class="simplepopup__close interactive-trigger" data-target="parent" data-toggleclass="active">
-              <svg class="simplepopup__icon">
-                <use xlink:href="#icon-close"></use>
-              </svg>
-            </a>
-            <div class="simplepopup__title">Выберите город</div>
-            <div class="simplepopup__input">
-              <input type="text" placeholder="Например: Санкт-Петербург">
-            </div>
-            <div class="simplepopup__content">
-              <div class="simplepopup__block">
-                <ul class="simplepopup__list">
-                  <li><a data-text="Москва" href="">Москва</a></li>
-                  <li><a data-text="Санкт-Петербург" href="">Санкт-Петербург</a></li>
-                  <li><a data-text="Новосибирск" href="">Новосибирск</a></li>
-                  <li><a data-text="Екатеринбург" href="">Екатеринбург</a></li>
-                  <li><a data-text="Казань" href="">Казань</a></li>
-                  <li><a data-text="Нижний Новгород" href="">Нижний Новгород</a></li>
-                  <li><a data-text="Челябинск" href="">Челябинск</a></li>
-                  <li><a data-text="Самара" href="">Самара</a></li>
-                  <li><a data-text="Омск" href="">Омск</a></li>
-                  <li><a data-text="Ростов-на-Дону" href="">Ростов-на-Дону</a></li>
-                </ul>
-              </div>
-              <div class="simplepopup__block">
-                <ul class="simplepopup__list">
-                  <li><a data-text="Уфа" href="">Уфа</a></li>
-                  <li><a data-text="Красноярск" href="">Красноярск</a></li>
-                  <li><a data-text="Воронеж" href="">Воронеж</a></li>
-                  <li><a data-text="Пермь" href="">Пермь</a></li>
-                  <li><a data-text="Волгоград" href="">Волгоград</a></li>
-                  <li><a data-text="Краснодар" href="">Краснодар</a></li>
-                  <li><a data-text="Петрозаводск" href="">Петрозаводск</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="headline__links">
-          <address class="headline__contacts">
-            <a href="tel:+78000000000">
-              <svg class="small-icon">
-                <use xlink:href="#icon-tele"></use>
-              </svg>
-              8 (800) 000-00-00
-            </a>
-            <a href="tel:+74957400598">
-              <svg class="small-icon">
-                <use xlink:href="#icon-tele"></use>
-              </svg>
-              + 7 (495) 740-05-98
-            </a>
-            <a href="mailto:info@1btl.ru">
-              <svg class="small-icon">
-                <use xlink:href="#icon-mail"></use>
-              </svg>
-              info@1btl.ru
-            </a>
-          </address>
-          <a class="headline__recall" href="/">
-            <div class="svgcontainer">
-              <svg>
-                <use xlink:href="#icon-handset"></use>
-              </svg>
-            </div>
-            Обратный звонок
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="line">
-      <div class="wrapper">
-        <div class="header__content">
-          <div class="header__burger burger interactive-trigger" data-target="this" data-toggleclass="active">
-            <div class="burger__inner"></div>
-          </div>
+  <div class="wrapper">
 
-          <div class="header__search">
-            <svg class="interactive-trigger" data-target="parent" data-toggleclass="active">
-              <use xlink:href="#icon-search"></use>
-            </svg>
-            <svg class="interactive-trigger" data-target="parent" data-toggleclass="active">
+    <div class="headline">
+      <a class="headline__location">
+        <div class="svgcontainer svgcontainer_small">
+          <svg>
+            <use xlink:href="#icon-location"></use>
+          </svg>
+        </div>
+        Петрозаводск
+        <div class="simplepopup simplepopup_city" data-trigger="click">
+          <a class="simplepopup__close interactive-trigger" data-target="parent" data-toggleclass="active">
+            <svg class="simplepopup__icon">
               <use xlink:href="#icon-close"></use>
             </svg>
-            <input type="text">
+          </a>
+          <div class="simplepopup__title">Выберите город</div>
+          <div class="simplepopup__input">
+            <input type="text" placeholder="Например: Санкт-Петербург">
           </div>
-
-
-          <div class="header__logoblock logo">
-            <svg>
-              <use xlink:href="#clever-logo"></use>
-            </svg>
-            <div class="logo__name"><span class="logo__upper">CLEVER</span><span>marketing</span></div>
+          <div class="simplepopup__content">
+            <div class="simplepopup__block">
+              <ul class="simplepopup__list">
+                <li><a data-text="Москва" href="">Москва</a></li>
+                <li><a data-text="Санкт-Петербург" href="">Санкт-Петербург</a></li>
+                <li><a data-text="Новосибирск" href="">Новосибирск</a></li>
+                <li><a data-text="Екатеринбург" href="">Екатеринбург</a></li>
+                <li><a data-text="Казань" href="">Казань</a></li>
+                <li><a data-text="Нижний Новгород" href="">Нижний Новгород</a></li>
+                <li><a data-text="Челябинск" href="">Челябинск</a></li>
+                <li><a data-text="Самара" href="">Самара</a></li>
+                <li><a data-text="Омск" href="">Омск</a></li>
+                <li><a data-text="Ростов-на-Дону" href="">Ростов-на-Дону</a></li>
+              </ul>
+            </div>
+            <div class="simplepopup__block">
+              <ul class="simplepopup__list">
+                <li><a data-text="Уфа" href="">Уфа</a></li>
+                <li><a data-text="Красноярск" href="">Красноярск</a></li>
+                <li><a data-text="Воронеж" href="">Воронеж</a></li>
+                <li><a data-text="Пермь" href="">Пермь</a></li>
+                <li><a data-text="Волгоград" href="">Волгоград</a></li>
+                <li><a data-text="Краснодар" href="">Краснодар</a></li>
+                <li><a data-text="Петрозаводск" href="">Петрозаводск</a></li>
+              </ul>
+            </div>
           </div>
-          <nav class="header__nav">
-            <ul>
-              <li><a href="/">Услуги</a></li>
-              <li><a href="/">Возможности</a></li>
-              <li><a href="/">Digital</a></li>
-              <li><a href="/">BTL-Партнерство</a></li>
-              <li><a href="/">Персонал</a></li>
-              <li><a href="/">Новости</a></li>
-              <li><a href="/">Контакты</a></li>
-              <li><a href="/">Блог</a></li>
-            </ul>
-          </nav>
         </div>
-
+      </a>
+      <div class="headline__links">
+        <address class="headline__contacts">
+          <a href="tel:+78000000000">
+            <svg class="small-icon">
+              <use xlink:href="#icon-tele"></use>
+            </svg>
+            8 (800) 000-00-00
+          </a>
+          <a href="tel:+74957400598">
+            <svg class="small-icon">
+              <use xlink:href="#icon-tele"></use>
+            </svg>
+            + 7 (495) 740-05-98
+          </a>
+          <a href="mailto:info@1btl.ru">
+            <svg class="small-icon">
+              <use xlink:href="#icon-mail"></use>
+            </svg>
+            info@1btl.ru
+          </a>
+        </address>
+        <a class="headline__recall">
+          <div class="svgcontainer">
+            <svg>
+              <use xlink:href="#icon-handset"></use>
+            </svg>
+          </div>
+          Обратный звонок
+        </a>
       </div>
     </div>
-  </header>
+  </div>
+  <div class="line">
+    <div class="wrapper">
+      <div class="header__content">
+        <div class="header__burger burger interactive-trigger" data-target="this" data-toggleclass="active">
+          <div class="burger__inner"></div>
+        </div>
+
+        <div class="header__search">
+          <svg class="interactive-trigger" data-target="parent" data-toggleclass="active">
+            <use xlink:href="#icon-search"></use>
+          </svg>
+          <svg class="interactive-trigger" data-target="parent" data-toggleclass="active">
+            <use xlink:href="#icon-close"></use>
+          </svg>
+          <input type="text">
+        </div>
+
+
+        <div class="header__logoblock logo">
+          <svg>
+            <use xlink:href="#clever-logo"></use>
+          </svg>
+          <div class="logo__name"><span class="logo__upper">CLEVER</span><span>marketing</span></div>
+        </div>
+        <nav class="header__nav">
+          <ul>
+            <li><a href="/">Услуги</a></li>
+            <li><a href="/">Возможности</a></li>
+            <li><a href="/">Digital</a></li>
+            <li><a href="/">BTL-Партнерство</a></li>
+            <li><a href="/">Персонал</a></li>
+            <li><a href="/">Новости</a></li>
+            <li><a href="/">Контакты</a></li>
+            <li><a href="/">Блог</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </div>
+  
+</header>
   <div class="breadcrumbs">
     <div class="wrapper">
       <ul>
