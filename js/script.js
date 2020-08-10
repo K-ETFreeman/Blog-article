@@ -10578,14 +10578,14 @@ var awardsSwiper = new Swiper('.awards__container', {
     700: {
       slidesPerView: 2,
       centeredSlides: false,
-      spaceBetween: 50
+      spaceBetween: 70
     },
     800: {
       slidesPerView: 2,
       centeredSlides: false,
-      spaceBetween: 60
+      spaceBetween: 100
     },
-    900: {
+    850: {
       slidesPerView: 3,
       centeredSlides: true,
       spaceBetween: 30
@@ -10600,12 +10600,12 @@ var awardsSwiper = new Swiper('.awards__container', {
       centeredSlides: true,
       spaceBetween: 50
     },
-    1220: {
+    1170: {
       slidesPerView: 4,
       centeredSlides: false,
       spaceBetween: 50
     },
-    1750: {
+    1700: {
       slidesPerView: 5,
       centeredSlides: false,
       spaceBetween: 50
