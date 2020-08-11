@@ -3589,6 +3589,10 @@ button.swiper-pagination-bullet {
     font-size: calc(10.5px + (100vw - 1440px) * (0.00729));
   }
 
+  .article {
+    padding-top: calc(60px + (100vw - 1440px) * (0.04167));
+  }
+
   .article__content {
     padding-top: calc(45px + (100vw - 1440px) * (0.03125));
   }
@@ -3954,6 +3958,10 @@ button.swiper-pagination-bullet {
 
   .headline__recall {
     font-size: 13.5px;
+  }
+
+  .article {
+    padding-top: 60px;
   }
 
   .article__content {
